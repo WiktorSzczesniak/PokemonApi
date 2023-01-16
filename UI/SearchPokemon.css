@@ -1,0 +1,21 @@
+.input {
+  width: 300px;
+  font: inherit;
+  line-height: 1.5rem;
+  border: 1.5px solid rgb(68, 68, 69);
+  border-radius: 10px;
+  background-color: rgb(48, 48, 48);
+  margin-bottom: 2rem;
+  color: white;
+  font-size: large;
+  padding-left: 10px;
+}
+.input :focus {
+  outline-width: 0;
+}
+.item-list {
+  min-height: 260px;
+}
+.datalist {
+  padding: 20px;
+}

@@ -1,0 +1,26 @@
+.details {
+  padding: 2rem;
+}
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+
+  border: 1px solid rgb(255, 255, 255);
+}
+.images {
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
+.images img {
+  width: 100px;
+}
+.destription {
+  height: 200px;
+}
+.pokemoninfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+  grid-gap: 1rem;
+}

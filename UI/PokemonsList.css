@@ -1,0 +1,36 @@
+.Main {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem 0rem 0rem;
+  width: auto;
+  height: auto;
+  background-color: #1d1d1e;
+  color: white;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  bottom: -1rem;
+  top: 8rem;
+  left: 8%;
+  right: 8%;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  padding: 36px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 250px));
+  grid-gap: 2rem;
+  grid-auto-rows: var(--column-width);
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  color: white;
+
+  padding-bottom: 1rem;
+  overflow-y: scroll;
+}
